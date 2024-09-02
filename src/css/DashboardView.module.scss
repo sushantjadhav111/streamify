@@ -1,0 +1,21 @@
+.container {
+    padding: 16px;
+    background-color: #f8f9fa;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 32px;
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-header h1 {
+      font-size: 24px;
+    }
+  }
+  

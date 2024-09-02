@@ -1,0 +1,30 @@
+.charts-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px; // Adjust if necessary for padding
+
+  .chart-col {
+    padding: 0 15px; // Adjust padding as necessary
+    margin-bottom: 30px; // Space between rows
+    flex: 1; // Each column takes equal space
+    min-width: 0; // Prevent columns from shrinking too small
+    display: flex;
+    flex-direction: column;
+    
+    .chart-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      height: 100%;
+    }
+
+    .chart-title {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+  }
+}
