@@ -28,7 +28,7 @@ const TopStreamedSongsChartView = ({data}) => {
 
   return (
     <div className="chart-container">
-      <h5 className="chart-title">Top 5 Streamed Songs</h5>
+      <h3 className="chart-title">Top 5 Streamed Songs</h3>
       <Bar data={data} options={options} />
     </div>
   );

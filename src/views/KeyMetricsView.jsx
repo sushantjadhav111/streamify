@@ -20,7 +20,7 @@ const KeyMetricsView = ({ data }) => {
         className={styles.keyMetricsCard}
         style={{ background: getRandomGradient() }}
       >
-        <h5 className={styles.keyMetricsCardTitle}>{metric.title}</h5>
+        <h3 className={styles.keyMetricsCardTitle}>{metric.title}</h3>
         <p className={styles.keyMetricsCardValue}>{metric.value}</p>
       </div>
     ))}

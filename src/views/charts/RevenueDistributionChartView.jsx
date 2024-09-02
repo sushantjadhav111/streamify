@@ -28,7 +28,7 @@ const RevenueDistributionChartView = ({data}) => {
 
   return (
     <div className="chart-container">
-      <h5 className="chart-title">Revenue Distribution</h5>
+      <h3 className="chart-title">Revenue Distribution</h3>
       <Pie data={data} options={options} />
     </div>
   );

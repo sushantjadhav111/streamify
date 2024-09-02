@@ -27,7 +27,7 @@ const UserGrowthChartView = ({data}) => {
 
   return (
     <div className="chart-container">
-      <h5 className="chart-title">User Growth Chart</h5>
+      <h3 className="chart-title">User Growth Chart</h3>
       <Line data={data} options={options} />
     </div>
   );

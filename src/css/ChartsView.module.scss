@@ -1,13 +1,13 @@
 .charts-row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px; // Adjust if necessary for padding
+  margin: 0 -15px;  
 
   .chart-col {
-    padding: 0 15px; // Adjust padding as necessary
-    margin-bottom: 30px; // Space between rows
-    flex: 1; // Each column takes equal space
-    min-width: 0; // Prevent columns from shrinking too small
+    padding: 0 15px; 
+    margin-bottom: 30px; 
+    flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     
@@ -23,8 +23,10 @@
     }
 
     .chart-title {
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 12px;
+      font-weight: bold;
+
     }
   }
 }

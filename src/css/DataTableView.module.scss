@@ -16,10 +16,11 @@
   padding: 10px 10px;
   font-size: 16px;
   transition: border-color 0.3s, box-shadow 0.3s;
-  width: 300px;
+  width: 200px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   &:focus {
+    display: flex;
     border: none;
     //border-color: #0056b3;
    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
@@ -44,6 +45,8 @@
 }
 .form-control-search{
   border: none;
+  width: 200px;
+
   &:hover {
     border: none;
   }
@@ -94,3 +97,46 @@
     }
   }
 }
+
+.search-input {
+  .form-control-search {
+    background-color: transparent;
+    border: none; 
+    border-radius: 0; 
+    box-shadow: none; 
+    padding:0px; 
+    font-size: 14px; 
+    line-height: 1.5; 
+    &:focus {
+      box-shadow: none; 
+      border-color: transparent; 
+    }
+
+    &::placeholder {
+      color: #6c757d; 
+    }
+  }
+
+  .input-group {
+    border: 1px solid #ced4da; 
+    border-radius: 0; 
+    &:hover,
+    &:focus-within {
+      border-color: #ced4da; 
+      background-color: transparent; 
+    }
+  }
+
+  .input-group-text {
+    background-color: transparent; 
+    border: none; 
+    padding: 0 10px;
+    border-radius: 0; 
+    &:hover,
+    &:focus {
+      background-color: transparent; 
+      border-color: #ced4da; 
+    }
+  }
+}
+

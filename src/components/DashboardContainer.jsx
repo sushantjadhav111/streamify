@@ -1,8 +1,9 @@
 import React from 'react'
 import DashboardContainerView from '../views/DashboardContainerView'
-import { chartsData, metricsData, tableData } from '../data/demoContent'
+import { useDashboard } from '../context/Context';
 
 const DashboardContainer = () => {
+  const { metricsData, tableData, chartsData } = useDashboard();
   return (
 <DashboardContainerView metricsData={metricsData} chartsData={chartsData} tableData={tableData}/>  )
 }
